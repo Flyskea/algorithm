@@ -7,6 +7,10 @@ package main
 
 import "fmt"
 
+// 根据中位数的定义，当 m+nm+n 是奇数时，
+// 中位数是两个有序数组中的第 (m+n)/2(m+n)/2 个元素，
+// 当 m+nm+n 是偶数时，中位数是两个有序数组中的第 (m+n)/2(m+n)/2 个元素和第 (m+n)/2+1(m+n)/2+1 个元素的平均值。
+
 // @lc code=start
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	totalLength := len(nums1) + len(nums2)

@@ -39,5 +39,5 @@ func backtracking(candidates []int, target, index int, total []int, res *[][]int
 // @lc code=end
 
 func main() {
-	fmt.Println(combinationSum([]int{2, 3, 6, 7}, 7))
+	fmt.Println(combinationSum([]int{2, 3, 5}, 8))
 }
